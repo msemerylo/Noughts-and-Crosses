@@ -98,7 +98,7 @@ class NoughtsAndCrossesTestSuite {
     @Test
     public void testVerifyingXWinsAcross2(){
         //given
-        char playerSymbol = 'O';
+        char playerSymbol = 'X';
         int size = 3;
         char[][]board = new char[size][size];
         board[0][2]=playerSymbol;
