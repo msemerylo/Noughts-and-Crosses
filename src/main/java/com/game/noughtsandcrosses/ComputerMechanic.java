@@ -7,8 +7,8 @@ public class ComputerMechanic {
     public static boolean computerMove(char[][] board, char computerSymbol) {
 
         System.out.println(computerSymbol + " Computer move");
-        int x = (int) Math.random();
-        int y = (int) Math.random();
+        int x = (int) Math.floor(Math.random()*2);
+        int y = (int) Math.floor(Math.random()*2);
 
         boolean correctMove = board[x][y] == 0;
         if (!correctMove) {
